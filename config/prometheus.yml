@@ -1,14 +1,43 @@
 global:
-  scrape_interval: 5s
-  evaluation_interval: 5s
+  scrape_interval: 15s
+  evaluation_interval: 15s
 
 scrape_configs:
+  # Prometheus self
   - job_name: "prometheus"
     static_configs:
       - targets: ["localhost:9090"]
 
+  # SAHIIX-AGI metrics exporter on host
   - job_name: "sahiix-agi"
     static_configs:
-      - targets: ["sahiix-metrics:9092"]
-        labels:
-          app: "sahiix-agi"
+      - targets: ["172.18.0.1:9092"]
+    metrics_path: "/metrics"
+    scheme: "http"
+
+  # SAHIIX-AGI web
+  - job_name: "sahiix-web"
+    static_configs:
+      - targets: ["172.18.0.1:7777"]
+    metrics_path: "/api/health"
+    scheme: "http"
+
+  # Ollama
+  - job_name: "ollama"
+    static_configs:
+      - targets: ["172.18.0.1:11434"]
+
+  # Agency agents
+  - job_name: "agency-agents"
+    static_configs:
+      - targets: ["172.18.0.1:8766"]
+
+  # Redis
+  - job_name: "redis"
+    static_configs:
+      - targets: ["172.18.0.1:6379"]
+
+  # Qdrant
+  - job_name: "qdrant"
+    static_configs:
+      - targets: ["172.18.0.1:6333"]
