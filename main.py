@@ -22,6 +22,10 @@ from core.mission import MissionRunner
 from core.autonomy import AutonomousEngine, EventBus, Event
 from core.ingestion import IngestionManager, router as webhook_router
 from core.mcp_server import MCPServer
+from core.sentinel import OmegaSentinel
+from core.fabricator import SkillFabricator
+from core.consolidation import MemoryConsolidator
+from core.optimizer import PerformanceOptimizer
 
 try:
     from core.temporal_engine import TemporalWorkflowEngine
@@ -37,6 +41,10 @@ CONFIG_PATH = Path(__file__).parent / "config" / "system.yaml"
 director = None
 mission_runner = None
 autonomy_engine = None
+omega_sentinel = None
+skill_fabricator = None
+memory_consolidator = None
+performance_optimizer = None
 temporal_engine = None
 n8n_bridge = None
 active_websockets: Set[WebSocket] = set()
@@ -162,6 +170,31 @@ async def lifespan(app: FastAPI):
     except Exception as e:
         print(f"[SAHIIX AGI] Qdrant not wired: {e}")
 
+    # Start Omega Sentinel — self-awareness & auto-healing
+    global omega_sentinel
+    omega_sentinel = OmegaSentinel()
+    await omega_sentinel.start()
+    app.state.sentinel = omega_sentinel
+    print("[SAHIIX AGI] Omega Sentinel (self-awareness + auto-heal) started.")
+
+    # Skill Fabricator — auto-detects missing skills
+    global skill_fabricator
+    skill_fabricator = SkillFabricator()
+    app.state.fabricator = skill_fabricator
+    print("[SAHIIX AGI] Skill Fabricator ready.")
+
+    # Memory Consolidator — compress old episodes into knowledge
+    global memory_consolidator
+    memory_consolidator = MemoryConsolidator()
+    app.state.consolidator = memory_consolidator
+    print("[SAHIIX AGI] Memory Consolidator ready.")
+
+    # Performance Optimizer — latency/cost/model selection
+    global performance_optimizer
+    performance_optimizer = PerformanceOptimizer()
+    app.state.optimizer = performance_optimizer
+    print("[SAHIIX AGI] Performance Optimizer ready.")
+
     # Start background metrics collectors
     asyncio.create_task(update_system_metrics())
     asyncio.create_task(update_agi_metrics())
@@ -182,6 +215,8 @@ async def lifespan(app: FastAPI):
         await ingestion_manager.stop()
     if mcp_server:
         mcp_server.stop()
+    if omega_sentinel:
+        await omega_sentinel.stop()
     # Disconnect Redis
     if hasattr(app.state, 'redis') and app.state.redis:
         try:
@@ -528,6 +563,71 @@ async def autonomy_evolve(request: Request):
         return {"error": "Autonomy engine not running"}
     return await autonomy_engine.evolve_agent(data.get("agent", "director"))
 
+# ── Omega Sentinel Endpoints (Self-Awareness + Auto-Heal) ──────────────────
+
+@app.get("/api/sentinel/status")
+async def sentinel_status():
+    if not omega_sentinel:
+        return {"error": "Omega Sentinel not initialized"}
+    return omega_sentinel.status()
+
+@app.post("/api/sentinel/heal")
+async def sentinel_heal(request: Request):
+    data = orjson.loads(await request.body())
+    if not omega_sentinel:
+        return {"error": "Omega Sentinel not initialized"}
+    return omega_sentinel.heal_now(data.get("service", ""))
+
+# ── Skill Fabricator Endpoints ───────────────────────────────────────────────
+
+@app.get("/api/fabricator/status")
+async def fabricator_status():
+    if not skill_fabricator:
+        return {"error": "Skill Fabricator not initialized"}
+    return skill_fabricator.status()
+
+@app.get("/api/fabricator/skills")
+async def fabricator_skills():
+    if not skill_fabricator:
+        return {"error": "Skill Fabricator not initialized"}
+    return {"fabricated_skills": skill_fabricator.list_fabricated()}
+
+# ── Memory Consolidation Endpoints ────────────────────────────────────────────
+
+@app.get("/api/consolidation/status")
+async def consolidation_status():
+    if not memory_consolidator:
+        return {"error": "Memory Consolidator not initialized"}
+    return memory_consolidator.status()
+
+@app.post("/api/consolidation/run")
+async def consolidation_run(request: Request):
+    data = orjson.loads(await request.body())
+    if not memory_consolidator:
+        return {"error": "Memory Consolidator not initialized"}
+    return memory_consolidator.consolidate(keep_recent=data.get("keep_recent", 50))
+
+@app.post("/api/consolidation/recall")
+async def consolidation_recall(request: Request):
+    data = orjson.loads(await request.body())
+    if not memory_consolidator:
+        return {"error": "Memory Consolidator not initialized"}
+    return {"results": memory_consolidator.recall(data.get("query", ""), data.get("top_k", 5))}
+
+# ── Performance Optimizer Endpoints ───────────────────────────────────────────
+
+@app.get("/api/optimizer/status")
+async def optimizer_status():
+    if not performance_optimizer:
+        return {"error": "Performance Optimizer not initialized"}
+    return performance_optimizer.status()
+
+@app.post("/api/optimizer/model")
+async def optimizer_model(request: Request):
+    data = orjson.loads(await request.body())
+    if not performance_optimizer:
+        return {"error": "Performance Optimizer not initialized"}
+    return performance_optimizer.get_recommendation(data.get("task", ""))
 
 # ── Webhook Router Mount ─────────────────────────────────────────────────────
 app.include_router(webhook_router)

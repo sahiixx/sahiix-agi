@@ -19,3 +19,4 @@ logs/
 *.swp
 *.swo
 *~
+data/agent_memory*
