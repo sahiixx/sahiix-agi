@@ -8,14 +8,14 @@ scrape_configs:
     static_configs:
       - targets: ["localhost:9090"]
 
-  # SAHIIX-AGI metrics exporter on host
+  # SAHIIX-AGI built-in metrics endpoint
   - job_name: "sahiix-agi"
     static_configs:
-      - targets: ["172.22.205.111:9092"]
+      - targets: ["172.22.205.111:7777"]
     metrics_path: "/metrics"
     scheme: "http"
 
-  # SAHIIX-AGI web
+  # SAHIIX-AGI web health
   - job_name: "sahiix-web"
     static_configs:
       - targets: ["172.22.205.111:7777"]

@@ -710,3 +710,16 @@ async def get_config():
     }
     return cfg
 
+
+# ── Prometheus Metrics Endpoint ─────────────────────────────────────────────
+
+from prometheus_client import generate_latest, CONTENT_TYPE_LATEST, CollectorRegistry
+from prometheus_client.registry import REGISTRY
+
+@app.get("/metrics")
+async def metrics():
+    """Expose Prometheus-compatible metrics."""
+    data = generate_latest(REGISTRY)
+    return StreamingResponse(iter([data]), media_type=CONTENT_TYPE_LATEST)
+
+

@@ -329,13 +329,178 @@
       "topic": "Latest MCP (Model Context Protocol) updates and implementations",
       "timestamp": "2026-05-05T05:53:56.808931",
       "findings": 5
+    },
+    {
+      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
+      "timestamp": "2026-05-05T05:56:38.296314",
+      "findings": 5
+    },
+    {
+      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
+      "timestamp": "2026-05-05T05:59:20.156079",
+      "findings": 5
+    },
+    {
+      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
+      "timestamp": "2026-05-05T06:02:00.448012",
+      "findings": 5
+    },
+    {
+      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
+      "timestamp": "2026-05-05T06:04:40.737950",
+      "findings": 5
+    },
+    {
+      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
+      "timestamp": "2026-05-05T06:07:21.057117",
+      "findings": 5
+    },
+    {
+      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
+      "timestamp": "2026-05-05T06:10:01.389067",
+      "findings": 5
+    },
+    {
+      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
+      "timestamp": "2026-05-05T06:12:41.445035",
+      "findings": 5
+    },
+    {
+      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
+      "timestamp": "2026-05-05T06:15:20.745066",
+      "findings": 5
+    },
+    {
+      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
+      "timestamp": "2026-05-05T06:18:00.611453",
+      "findings": 5
+    },
+    {
+      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
+      "timestamp": "2026-05-05T06:20:41.221237",
+      "findings": 5
+    },
+    {
+      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
+      "timestamp": "2026-05-05T06:23:20.992106",
+      "findings": 5
+    },
+    {
+      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
+      "timestamp": "2026-05-05T06:26:01.383462",
+      "findings": 5
+    },
+    {
+      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
+      "timestamp": "2026-05-05T06:28:37.515917",
+      "findings": 5
+    },
+    {
+      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
+      "timestamp": "2026-05-05T06:31:17.109187",
+      "findings": 5
+    },
+    {
+      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
+      "timestamp": "2026-05-05T06:33:56.720936",
+      "findings": 5
+    },
+    {
+      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
+      "timestamp": "2026-05-05T06:36:37.069893",
+      "findings": 5
+    },
+    {
+      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
+      "timestamp": "2026-05-05T06:39:16.427595",
+      "findings": 5
+    },
+    {
+      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
+      "timestamp": "2026-05-05T06:41:55.841595",
+      "findings": 5
+    },
+    {
+      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
+      "timestamp": "2026-05-05T06:44:35.354464",
+      "findings": 5
+    },
+    {
+      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
+      "timestamp": "2026-05-05T06:47:12.237042",
+      "findings": 5
+    },
+    {
+      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
+      "timestamp": "2026-05-05T06:49:51.108577",
+      "findings": 5
+    },
+    {
+      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
+      "timestamp": "2026-05-05T06:52:32.032905",
+      "findings": 5
+    },
+    {
+      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
+      "timestamp": "2026-05-05T06:55:10.773650",
+      "findings": 5
+    },
+    {
+      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
+      "timestamp": "2026-05-05T06:57:50.133456",
+      "findings": 5
+    },
+    {
+      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
+      "timestamp": "2026-05-05T07:00:29.164527",
+      "findings": 5
+    },
+    {
+      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
+      "timestamp": "2026-05-05T07:03:08.409108",
+      "findings": 5
+    },
+    {
+      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
+      "timestamp": "2026-05-05T07:05:47.037173",
+      "findings": 5
+    },
+    {
+      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
+      "timestamp": "2026-05-05T07:08:27.091371",
+      "findings": 5
+    },
+    {
+      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
+      "timestamp": "2026-05-05T07:09:07.542522",
+      "findings": 5
+    },
+    {
+      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
+      "timestamp": "2026-05-05T07:11:28.211926",
+      "findings": 5
+    },
+    {
+      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
+      "timestamp": "2026-05-05T07:13:42.745786",
+      "findings": 5
+    },
+    {
+      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
+      "timestamp": "2026-05-05T07:14:20.564303",
+      "findings": 5
+    },
+    {
+      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
+      "timestamp": "2026-05-05T07:15:56.984844",
+      "findings": 5
     }
   ],
   "topics": {
     "Latest MCP (Model Context Protocol) updates and implementations": {
-      "count": 1166,
-      "last": 1777960436.8088856,
-      "last_synthesis": "[Synthesis timeout \u2014 LLM did not respond in time]",
+      "count": 1199,
+      "last": 1777965356.9848151,
+      "last_synthesis": "[LLM Error: ClientConnectorError: Cannot connect to host localhost:11434 ssl:default [Connect call failed ('127.0.0.1', ",
       "last_error": true
     }
   },
