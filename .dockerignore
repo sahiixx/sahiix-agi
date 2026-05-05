@@ -1,0 +1,42 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Git
+.git/
+.gitignore
+
+# Environment
+.env
+.env.*
+
+# Logs & data (recreated at runtime)
+logs/*.log
+logs/*.log.*
+data/*.db
+data/*.db-*
+memory/*.db
+memory/*.db-*
+
+# Build artifacts
+dist/
+build/
+
+# Docker
+docker-compose.yml
+Dockerfile
+.dockerignore
+
+# Scripts
+build.sh
+start-server.sh
+start-voice.sh
+
+# Misc
+*.md
+!README.md

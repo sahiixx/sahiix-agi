@@ -1,0 +1,57 @@
+{
+  "dashboard": {
+    "title": "SAHIIX AGI - Real-Time System Overview",
+    "uid": "sahiix-agi",
+    "schemaVersion": 38,
+    "version": 1,
+    "refresh": "5s",
+    "tags": ["agi", "real-time"],
+    "timezone": "browser",
+    "panels": [
+      {
+        "id": 1,
+        "title": "System Resources",
+        "type": "stat",
+        "targets": [
+          {"expr": "sahiix_ecosystem_cpu_percent", "refId": "A"},
+          {"expr": "sahiix_ecosystem_ram_used_gb", "refId": "B"}
+        ],
+        "gridPos": {"h": 4, "w": 12, "x": 0, "y": 0}
+      },
+      {
+        "id": 2,
+        "title": "Active Agents & Tools",
+        "type": "stat",
+        "targets": [
+          {"expr": "sahiix_agi_agents_total", "refId": "A"},
+          {"expr": "sahiix_agi_tools_total", "refId": "B"}
+        ],
+        "gridPos": {"h": 4, "w": 12, "x": 12, "y": 0}
+      },
+      {
+        "id": 3,
+        "title": "Memory Episodes",
+        "type": "stat",
+        "targets": [{"expr": "sahiix_agi_memory_episodes", "refId": "A"}],
+        "gridPos": {"h": 4, "w": 8, "x": 0, "y": 4}
+      },
+      {
+        "id": 4,
+        "title": "Autonomy Engine Status",
+        "type": "stat",
+        "targets": [
+          {"expr": "sahiix_agi_autonomy_enabled", "refId": "A"},
+          {"expr": "rate(sahiix_agi_autonomy_cycles_total[5m])", "refId": "B"}
+        ],
+        "gridPos": {"h": 4, "w": 8, "x": 8, "y": 4}
+      },
+      {
+        "id": 5,
+        "title": "LLM Provider Health",
+        "type": "stat",
+        "targets": [{"expr": "sahiix_agi_ecosystem_nodes", "refId": "A"}],
+        "gridPos": {"h": 4, "w": 8, "x": 16, "y": 4}
+      }
+    ]
+  }
+}

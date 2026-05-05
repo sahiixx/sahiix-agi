@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SAHIIX AGI v2.1-RT | Real-Time Control Center</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, sans-serif; background: #0a0a0f; color: #e0e0e0; min-height: 100vh; }
+    .header { background: #111129; border-bottom: 2px solid #2563eb; padding: 10px 24px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px; }
+    .brand { display: flex; align-items: center; gap: 12px; }
+    .logo { width: 34px; height: 34px; background: #2563eb; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-weight: 800; color: #fff; font-size: 14px; }
+    .title { font-size: 16px; font-weight: 600; letter-spacing: 0.5px; }
+    .status-dot { width: 10px; height: 10px; border-radius: 50%; background: #22c55e; display: inline-block; margin-right: 6px; box-shadow: 0 0 8px #22c55e; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 14px; padding: 14px; }
+    .card { background: #111129; border-radius: 10px; padding: 16px; border: 1px solid #22224a; }
+    .card-title { font-size: 11px; text-transform: uppercase; letter-spacing: 1px; color: #94a3b8; margin-bottom: 10px; font-weight: 600; }
+    .metric-row { display: flex; justify-content: space-between; align-items: center; padding: 8px 0; border-bottom: 1px solid #1e1e3a; }
+    .metric-row:last-child { border-bottom: none; }
+    .metric-label { font-size: 13px; color: #cbd5e1; }
+    .metric-value { font-size: 13px; font-weight: 600; color: #22c55e; }
+    .badge { font-size: 10px; padding: 2px 8px; border-radius: 10px; background: #1e3a5f; color: #93c5fd; }
+    .badge.ok { background: #14532d; color: #86efac; }
+    .badge.warn { background: #451a03; color: #fcd34d; }
+    .log-area { background: #0e0e1a; border-radius: 6px; padding: 6px; font-family: 'SF Mono', monospace; font-size: 11px; color: #94a3b8; max-height: 90px; overflow-y: auto; list-style: none; }
+    .btn { background: #2563eb; color: #fff; border: none; padding: 8px 14px; border-radius: 6px; font-size: 12px; font-weight: 600; cursor: pointer; margin-top: 8px; }
+    .btn:hover { background: #3b82f6; }
+    pre { background: #0e0e1a; padding: 10px; border-radius: 6px; font-size: 11px; overflow-x: auto; color: #a5b4fc; max-height: 160px; }
+    .footer { text-align: center; padding: 14px; font-size: 11px; color: #475569; }
+    input, select { padding: 8px 10px; background: #0e0e1a; border: 1px solid #22224a; color: #e0e0e0; border-radius: 6px; font-size: 13px; width: 100%; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="brand">
+      <div class="logo">S</div>
+      <div class="title">SAHIIX AGI v2.1-RT <em style="color:#64748b;font-weight:400;">Real-Time Control Center</em></div>
+    </div>
+    <div style="font-size:12px;">
+      <span class="status-dot"></span>
+      <span id="uptime">Loading...</span>
+    </div>
+  </div>
+
+  <div class="grid">
+    <div class="card">
+      <div class="card-title">Agents (6)</div>
+      <div id="agents-list"><i>Loading...</i></div>
+    </div>
+    <div class="card">
+      <div class="card-title">LLM Providers (6)</div>
+      <div id="llm-list"><i>Loading...</i></div>
+    </div>
+    <div class="card">
+      <div class="card-title">Ecosystem Nodes</div>
+      <div id="eco-list"><i>Loading...</i></div>
+    </div>
+    <div class="card">
+      <div class="card-title">Tools (15)</div>
+      <div id="tools-list"><i>Loading...</i></div>
+    </div>
+    <div class="card">
+      <div class="card-title">Autonomy Engine</div>
+      <div id="autonomy-status"><i>Loading...</i></div>
+    </div>
+    <div class="card">
+      <div class="card-title">Infrastructure</div>
+      <div class="metric-row"><span class="metric-label">Redis</span><span class="badge ok">Healthy</span></div>
+      <div class="metric-row"><span class="metric-label">Qdrant</span><span class="badge ok">Running</span></div>
+      <div class="metric-row"><span class="metric-label">N8n</span><span class="badge ok">Active</span></div>
+      <div class="metric-row"><span class="metric-label">Prometheus</span><span class="badge ok">Ready</span></div>
+      <div class="metric-row"><span class="metric-label">Grafana</span><span class="badge ok">Ready</span></div>
+      <div class="metric-row"><span class="metric-label">Metrics Exporter</span><span class="badge ok">9091</span></div>
+    </div>
+    <div class="card">
+      <div class="card-title">Quick Chat</div>
+      <input id="chat-msg" type="text" placeholder="Ask SAHIIX AGI anything...">
+      <div style="display:flex;gap:6px;margin-top:8px;">
+        <select id="chat-agent" style="flex:1;">
+          <option value="director">director</option>
+          <option value="coder">coder</option>
+          <option value="researcher">researcher</option>
+          <option value="sysadmin">sysadmin</option>
+          <option value="architect">architect</option>
+          <option value="dataengineer">dataengineer</option>
+        </select>
+        <button class="btn" onclick="sendChat()">Send</button>
+      </div>
+      <pre id="chat-response" style="margin-top:8px;"></pre>
+    </div>
+    <div class="card">
+      <div class="card-title">Live Events</div>
+      <ul class="log-area" id="live-logs"><li>System initialized...</li></ul>
+    </div>
+  </div>
+
+  <div class="footer">SAHIIX AGI v2.1-RT &mdash; 6 agents, 6 LLM providers, 15 tools, 9 ecosystem nodes.</div>
+
+  <script>
+    const API = '/api';
+    async function refresh() {
+      try {
+        const agents = await (await fetch(API+'/agents')).json();
+        document.getElementById('agents-list').innerHTML = agents.agents.map(a => `<div class="metric-row"><span class="metric-label">${a}</span><span class="badge ok">Online</span></div>`).join('');
+
+        const models = await (await fetch(API+'/models')).json();
+        document.getElementById('llm-list').innerHTML = models.models.map(m => {
+          const st = m.healthy ? 'ok' : (m.circuit_state !== 'closed' ? 'warn' : 'crit');
+          return `<div class="metric-row"><span class="metric-label">${m.name}</span><span class="badge ${st}">${m.model}</span></div>`;
+        }).join('');
+
+        const eco = await (await fetch(API+'/ecosystem/status')).json();
+        document.getElementById('eco-list').innerHTML = Object.entries(eco).map(([name, node]) => {
+          const st = node.healthy ? 'ok' : 'warn';
+          const lat = node.latency_ms > 1000 ? (node.latency_ms/1000).toFixed(1)+'s' : node.latency_ms.toFixed(0)+'ms';
+          return `<div class="metric-row"><span class="metric-label">${name}</span><span class="badge ${st}">${lat}</span></div>`;
+        }).join('');
+
+        const tools = await (await fetch(API+'/tools')).json();
+        document.getElementById('tools-list').innerHTML = tools.tools.map(t =>
+          `<div class="metric-row"><span class="metric-label">${t.name}</span><span class="metric-value" style="color:#94a3b8;font-size:11px;max-width:140px;overflow:hidden;text-overflow:ellipsis;">${t.description}</span></div>`
+        ).slice(0,10).join('') + (tools.tools.length > 10 ? `<div class="metric-row"><i>+${tools.tools.length-10} more</i></div>` : '');
+
+        const auto = await (await fetch(API+'/autonomy/status')).json();
+        document.getElementById('autonomy-status').innerHTML = `
+          <div class="metric-row"><span class="metric-label">Status</span><span class="badge ${auto.running ? 'ok' : 'warn'}">${auto.running ? 'Running' : 'Stopped'}</span></div>
+          <div class="metric-row"><span class="metric-label">Cycles</span><span class="metric-value">${auto.cycle_count}</span></div>
+          <div class="metric-row"><span class="metric-label">Fabricated Tools</span><span class="metric-value">${auto.fabricated_tools}</span></div>
+          <div class="metric-row"><span class="metric-label">Event Log</span><span class="metric-value">${auto.event_history}</span></div>`;
+
+        addLog('Dashboard refreshed');
+      } catch(e) { addLog('Error: ' + e.message); }
+    }
+
+    async function sendChat() {
+      const msg = document.getElementById('chat-msg').value;
+      const agent = document.getElementById('chat-agent').value;
+      if(!msg) return;
+      document.getElementById('chat-response').textContent = 'Thinking...';
+      try {
+        const r = await fetch(API+'/chat',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({message:msg,agent})});
+        const d = await r.json();
+        document.getElementById('chat-response').textContent = `[${d.agent}]: ${d.response.substring(0,300)}${d.response.length>300?'...':''}\n(latency: ${d.latency_ms}ms)`;
+        addLog(`Chat: ${agent} responded in ${d.latency_ms}ms`);
+      } catch(e) { document.getElementById('chat-response').textContent = 'Error: ' + e; }
+    }
+
+    function addLog(msg) {
+      const li = document.createElement('li'); li.textContent = '[' + new Date().toLocaleTimeString() + '] ' + msg;
+      const ul = document.getElementById('live-logs'); ul.prepend(li);
+      while(ul.children.length > 20) ul.removeChild(ul.lastChild);
+    }
+
+    document.getElementById('chat-msg').addEventListener('keydown', e => { if(e.key === 'Enter') sendChat(); });
+    setInterval(refresh, 5000);
+    refresh();
+  </script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+[
+  {
+    "name": "ping_url_test",
+    "description": "Ping a URL",
+    "created": "2026-05-04T08:23:36.177946",
+    "path": "/home/sahiix/sahiix-agi/data/synthesized_tools/ping_url_test.py"
+  },
+  {
+    "name": "hello_world_test",
+    "description": "Return hello world",
+    "created": "2026-05-04T09:39:23.090797",
+    "path": "/home/sahiix/sahiix-agi/data/synthesized_tools/hello_world_test.py"
+  },
+  {
+    "name": "hello_world_v2",
+    "description": "Return hello world",
+    "created": "2026-05-04T09:41:39.105201",
+    "path": "/home/sahiix/sahiix-agi/data/synthesized_tools/hello_world_v2.py"
+  },
+  {
+    "name": "btc_price",
+    "description": "Get Bitcoin price",
+    "created": "2026-05-04T09:48:22.719811",
+    "path": "/home/sahiix/sahiix-agi/data/synthesized_tools/btc_price.py"
+  },
+  {
+    "name": "crypto_price_tracker",
+    "description": "Track cryptocurrency prices in real-time",
+    "created": "2026-05-04T14:45:00.000000",
+    "path": "/home/sahiix/sahiix-agi/data/synthesized_tools/crypto_price_tracker.py"
+  }
+]

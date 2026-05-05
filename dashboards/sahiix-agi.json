@@ -1,0 +1,108 @@
+{
+  "dashboard": {
+    "title": "SAHIIX AGI v2.1-RT",
+    "tags": ["agi", "ai", "realtime"],
+    "timezone": "browser",
+    "schemaVersion": 37,
+    "refresh": "5s",
+    "panels": [
+      {
+        "id": 1,
+        "title": "Ecosystem CPU",
+        "type": "stat",
+        "targets": [
+          {
+            "expr": "sahiix_ecosystem_cpu_percent",
+            "legendFormat": "CPU %"
+          }
+        ],
+        "gridPos": {"h": 4, "w": 6, "x": 0, "y": 0}
+      },
+      {
+        "id": 2,
+        "title": "RAM Used",
+        "type": "stat",
+        "targets": [
+          {
+            "expr": "sahiix_ecosystem_ram_used_gb",
+            "legendFormat": "GB"
+          }
+        ],
+        "gridPos": {"h": 4, "w": 6, "x": 6, "y": 0}
+      },
+      {
+        "id": 3,
+        "title": "Request Rate",
+        "type": "graph",
+        "targets": [
+          {
+            "expr": "rate(sahiix_agi_requests_total[1m])",
+            "legendFormat": "{{method}} {{endpoint}}"
+          }
+        ],
+        "gridPos": {"h": 8, "w": 12, "x": 0, "y": 4}
+      },
+      {
+        "id": 4,
+        "title": "Request Latency",
+        "type": "graph",
+        "targets": [
+          {
+            "expr": "histogram_quantile(0.95, rate(sahiix_agi_request_latency_seconds_bucket[5m]))",
+            "legendFormat": "P95 {{endpoint}}"
+          }
+        ],
+        "gridPos": {"h": 8, "w": 12, "x": 12, "y": 4}
+      },
+      {
+        "id": 5,
+        "title": "LLM Latency by Provider",
+        "type": "graph",
+        "targets": [
+          {
+            "expr": "histogram_quantile(0.50, rate(sahiix_agi_llm_latency_seconds_bucket[5m]))",
+            "legendFormat": "P50 {{provider}}"
+          }
+        ],
+        "gridPos": {"h": 8, "w": 12, "x": 0, "y": 12}
+      },
+      {
+        "id": 6,
+        "title": "LLM Errors",
+        "type": "graph",
+        "targets": [
+          {
+            "expr": "rate(sahiix_agi_llm_errors_total[1m])",
+            "legendFormat": "{{provider}} {{error_type}}"
+          }
+        ],
+        "gridPos": {"h": 8, "w": 12, "x": 12, "y": 12}
+      },
+      {
+        "id": 7,
+        "title": "Autonomy Cycles",
+        "type": "stat",
+        "targets": [
+          {
+            "expr": "sahiix_agi_autonomy_cycles_total",
+            "legendFormat": "Cycles"
+          }
+        ],
+        "gridPos": {"h": 4, "w": 6, "x": 12, "y": 0}
+      },
+      {
+        "id": 8,
+        "title": "Ecosystem Nodes Health",
+        "type": "table",
+        "targets": [
+          {
+            "expr": "sahiix_agi_ecosystem_nodes",
+            "format": "table",
+            "instant": true
+          }
+        ],
+        "gridPos": {"h": 8, "w": 24, "x": 0, "y": 20}
+      }
+    ]
+  }
+}

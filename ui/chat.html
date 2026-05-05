@@ -1,0 +1,49 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8"><title>SAHIIX AGI Chat</title>
+<style>:root{--bg:#0a0a0f;--panel:#12121a;--accent:#00f0ff;--accent2:#ff00a0;--text:#e0e0e0;--muted:#888;--border:#1a1a2e}
+*{box-sizing:border-box;margin:0;padding:0}body{font-family:system-ui,sans-serif;background:var(--bg);color:var(--text);height:100vh;display:flex;flex-direction:column}
+header{background:linear-gradient(90deg,var(--panel),#1a1a3a);padding:12px 24px;border-bottom:1px solid var(--border);display:flex;justify-content:space-between;align-items:center}
+header h1{font-size:1.2rem;background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.badge{font-size:.7rem;padding:2px 8px;border-radius:12px;background:var(--accent);color:#000;font-weight:700}
+main{flex:1;display:flex;overflow:hidden}.sidebar{width:240px;background:var(--panel);border-right:1px solid var(--border);padding:12px;display:flex;flex-direction:column;gap:8px}
+.sidebar h3{font-size:.75rem;text-transform:uppercase;color:var(--muted);letter-spacing:1px}
+.agent-btn{padding:8px 12px;border:1px solid var(--border);border-radius:6px;background:transparent;color:var(--text);cursor:pointer;text-align:left;font-size:.8rem}
+.agent-btn:hover{border-color:var(--accent)}.agent-btn.active{border-color:var(--accent);background:rgba(0,240,255,.1)}
+.chat-area{flex:1;display:flex;flex-direction:column;padding:16px;gap:8px}.messages{flex:1;overflow-y:auto;display:flex;flex-direction:column;gap:8px}
+.msg{max-width:75%;padding:10px 14px;border-radius:10px;font-size:.85rem;line-height:1.4}
+.msg.user{align-self:flex-end;background:#1a1a3a;border:1px solid var(--border)}
+.msg.agi{align-self:flex-start;background:var(--panel);border:1px solid var(--border);border-left:3px solid var(--accent)}
+.msg .role{font-size:.65rem;color:var(--muted);margin-bottom:2px;text-transform:uppercase}
+.input-area{display:flex;gap:8px;padding-top:8px;border-top:1px solid var(--border)}
+.input-area input{flex:1;padding:10px 14px;border:1px solid var(--border);border-radius:8px;background:var(--bg);color:var(--text);font-size:.85rem;outline:none}
+.input-area input:focus{border-color:var(--accent)}.input-area button{padding:10px 20px;border:none;border-radius:8px;background:linear-gradient(90deg,var(--accent),var(--accent2));color:#000;font-weight:700;cursor:pointer;font-size:.85rem}
+.status-bar{padding:6px 16px;background:var(--panel);border-top:1px solid var(--border);font-size:.7rem;color:var(--muted);display:flex;gap:16px}
+.latency{font-family:monospace;color:var(--accent)}.dot{width:6px;height:6px;border-radius:50%;background:var(--accent);animation:pulse 2s infinite;display:inline-block;margin-right:4px}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+</style></head><body>
+<header><h1>SAHIIX AGI</h1><span class="badge">RT</span></header>
+<main><div class="sidebar"><h3>Agents</h3>
+<button class="agent-btn active" onclick="setAgent(null,this)">Director</button>
+<button class="agent-btn" onclick="setAgent('coder',this)">Coder</button>
+<button class="agent-btn" onclick="setAgent('researcher',this)">Researcher</button>
+<button class="agent-btn" onclick="setAgent('sysadmin',this)">SysAdmin</button>
+<button class="agent-btn" onclick="setAgent('architect',this)">Architect</button>
+<h3>Mode</h3><button class="agent-btn" onclick="location.href='/'">🎙️ Voice Mode</button>
+</div><div class="chat-area"><div class="messages" id="messages"></div>
+<div class="input-area"><input type="text" id="input" placeholder="Ask anything..." onkeydown="if(event.key==='Enter')send()">
+<button onclick="send()">Send</button></div></div></main>
+<div class="status-bar"><span><span class="dot"></span><span id="ws-status">Connecting...</span></span>
+<span id="status-agents">Agents: 5</span><span class="latency" id="latency">-- ms</span></div>
+<script>
+let currentAgent=null;let messages=document.getElementById('messages');let input=document.getElementById('input');let latencyEl=document.getElementById('latency');let wsStatus=document.getElementById('ws-status');let ws=null;
+function connectWS(){ws=new WebSocket(`ws://${window.location.host}/ws`);ws.onopen=()=>{wsStatus.textContent='WS Connected'};ws.onclose=()=>{wsStatus.textContent='Reconnecting...';setTimeout(connectWS,2000)};ws.onmessage=(e)=>{let d=JSON.parse(e.data);if(d.type==='response'){showResponse(d.response,d.agent,d.latency_ms)}else if(d.type==='stream_chunk'){appendStream(d.chunk)}else if(d.type==='stream_end'){finishStream()}else if(d.type==='tool_result'){showTool(d.output,d.error,d.latency_ms)}}}
+connectWS();
+function setAgent(name,el){currentAgent=name;document.querySelectorAll('.agent-btn').forEach(b=>b.classList.remove('active'));el.classList.add('active')}
+function addMsg(role,text){let div=document.createElement('div');div.className='msg '+role;div.innerHTML='<div class="role">'+role+'</div><div>'+text.replace(/\n/g,'<br>')+'</div>';messages.appendChild(div);messages.scrollTop=messages.scrollHeight}
+let lastStream=null;function appendStream(chunk){if(!lastStream){lastStream=document.createElement('div');lastStream.className='msg agi';lastStream.innerHTML='<div class="role">agi</div><div></div>';messages.appendChild(lastStream)}lastStream.querySelector('div:last-child').textContent+=chunk;messages.scrollTop=messages.scrollHeight}
+function finishStream(){lastStream=null}
+function showResponse(text,agent,latency){latencyEl.textContent=(latency||0)+' ms';addMsg('agi',text)}
+function showTool(output,error,latency){latencyEl.textContent=(latency||0)+' ms';addMsg('agi','<pre>'+(output||error||'Done')+'</pre>')}
+function send(){let text=input.value.trim();if(!text)return;input.value='';addMsg('user',text);if(ws&&ws.readyState===WebSocket.OPEN){ws.send(JSON.stringify({type:'chat',message:text,agent:currentAgent}))}else{fetch('/api/chat',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({message:text,agent:currentAgent})}).then(r=>r.json()).then(d=>showResponse(d.response,d.agent,d.latency_ms))}}
+fetch('/api/status').then(r=>r.json()).then(d=>{document.getElementById('status-agents').textContent='Agents: '+d.agents.length});
+addMsg('agi','SAHIIX AGI v1.0-RT ready.\nWebSocket real-time mode active.\nSelect an agent or ask anything.');
+</script></body></html>
