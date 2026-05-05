@@ -1,8 +1,8 @@
 # syntax=docker/dockerfile:1
-# SAHIIX AGI — Production multi-stage build
+# SAHIIX AGI v2.5.0-omega — Production multi-stage build
 
 # ── Builder stage ───────────────────────────────────────────────
-FROM python:3.11-slim AS builder
+FROM python:3.12-slim AS builder
 
 WORKDIR /build
 
@@ -20,7 +20,7 @@ RUN pip install --no-cache-dir --upgrade pip \
     && pip install --no-cache-dir -r requirements.txt
 
 # ── Runtime stage ───────────────────────────────────────────────
-FROM python:3.11-slim AS runtime
+FROM python:3.12-slim AS runtime
 
 # Install runtime dependencies: curl for healthcheck, libpq5 for PostgreSQL compatibility
 RUN apt-get update && apt-get install -y --no-install-recommends \
@@ -53,4 +53,4 @@ EXPOSE 7777
 HEALTHCHECK --interval=30s --timeout=5s --start-period=10s --retries=3 \
     CMD curl -f http://localhost:7777/api/health || exit 1
 
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "7777", "--workers", "2"]
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "7777", "--loop", "uvloop", "--workers", "4"]

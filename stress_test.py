@@ -21,7 +21,7 @@ TASKS: List[str] = [
 
 SYSTEMS = {
     "sahiix-agi": {
-        "url": "http://localhost:7778/api/chat",
+        "url": "http://localhost:7777/api/chat",
         "payload": lambda t: {"message": t, "agent": "director"},
     },
     "agency-agents": {

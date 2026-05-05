@@ -1,32 +1,10 @@
 version: "3.8"
 
-services:
-  sahiix-agi:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    image: sahiix-agi:latest
-    container_name: sahiix-agi
-    ports:
-      - "7777:7777"
-    volumes:
-      - ./data:/app/data
-      - ./logs:/app/logs
-      - ./memory:/app/memory
-    environment:
-      - OLLAMA_HOST=${OLLAMA_HOST:-http://host.docker.internal:11434}
-      - REDIS_URL=${REDIS_URL:-redis://redis:6379}
-      - KAFKA_URL=${KAFKA_URL:-kafka:9092}
-      - QDRANT_URL=${QDRANT_URL:-http://qdrant:6333}
-    restart: unless-stopped
-    networks:
-      - sahiix-network
-    depends_on:
-      redis:
-        condition: service_healthy
-      qdrant:
-        condition: service_healthy
+# SAHIIX-AGI v2.5 Infrastructure Compose
+# Core: Redis (cache), Qdrant (vectors), Prometheus (metrics), Grafana (viz)
+# Extended (start separately): Temporal (workflows), n8n (automations), Kafka (messaging)
 
+services:
   redis:
     image: redis:7-alpine
     container_name: sahiix-redis
@@ -41,33 +19,6 @@ services:
       test: ["CMD", "redis-cli", "ping"]
       interval: 10s
       timeout: 5s
-      retries: 5
-
-  kafka:
-    image: bitnami/kafka:3.7.1
-    container_name: sahiix-kafka
-    ports:
-      - "9092:9092"
-    environment:
-      - KAFKA_CFG_NODE_ID=0
-      - KAFKA_CFG_PROCESS_ROLES=controller,broker
-      - KAFKA_CFG_CONTROLLER_QUORUM_VOTERS=0@kafka:9093
-      - KAFKA_CFG_LISTENERS=PLAINTEXT://0.0.0.0:9092,CONTROLLER://0.0.0.0:9093
-      - KAFKA_CFG_ADVERTISED_LISTENERS=PLAINTEXT://localhost:9092
-      - KAFKA_CFG_CONTROLLER_LISTENER_NAMES=CONTROLLER
-      - KAFKA_CFG_OFFSETS_TOPIC_REPLICATION_FACTOR=1
-      - KAFKA_CFG_TRANSACTION_STATE_LOG_REPLICATION_FACTOR=1
-      - KAFKA_CFG_TRANSACTION_STATE_LOG_MIN_ISR=1
-      - KAFKA_CFG_AUTO_CREATE_TOPICS_ENABLE=true
-    volumes:
-      - kafka-data:/bitnami/kafka
-    restart: unless-stopped
-    networks:
-      - sahiix-network
-    healthcheck:
-      test: ["CMD", "kafka-topics.sh", "--bootstrap-server", "localhost:9092", "--list"]
-      interval: 15s
-      timeout: 10s
       retries: 5
 
   qdrant:
@@ -87,7 +38,7 @@ services:
       retries: 5
 
   prometheus:
-    image: prom/prometheus:latest
+    image: prom/prometheus:v2.52.0
     container_name: sahiix-prometheus
     ports:
       - "9090:9090"
@@ -105,7 +56,7 @@ services:
       - sahiix-network
 
   grafana:
-    image: grafana/grafana:latest
+    image: grafana/grafana:10.4.2
     container_name: sahiix-grafana
     ports:
       - "3000:3000"
@@ -119,41 +70,8 @@ services:
     depends_on:
       - prometheus
 
-  temporal:
-    image: temporalio/auto-setup:1.24
-    container_name: sahiix-temporal
-    ports:
-      - "7233:7233"
-      - "8233:8233"
-    environment:
-      - DB=sqlite
-      - DB_PORT=3306
-      - POSTGRES_SEEDS=postgresql
-      - DYNAMIC_CONFIG_FILE_PATH=config/dynamicconfig/development-sqlite.yaml
-      - ENABLE_ES=false
-      - TEMPORAL_BROADCAST_ADDRESS=127.0.0.1
-    volumes:
-      - temporal-data:/etc/temporal
-    networks:
-      - sahiix-network
-    restart: unless-stopped
-
-  temporal-ui:
-    image: temporalio/ui:2.26
-    container_name: sahiix-temporal-ui
-    ports:
-      - "8088:8080"
-    environment:
-      - TEMPORAL_ADDRESS=temporal:7233
-      - TEMPORAL_CORS_ORIGINS=http://localhost:3000
-    networks:
-      - sahiix-network
-    depends_on:
-      - temporal
-    restart: unless-stopped
-
   n8n:
-    image: n8nio/n8n:1.48
+    image: n8nio/n8n:latest
     container_name: sahiix-n8n
     ports:
       - "5678:5678"
@@ -172,9 +90,7 @@ networks:
 
 volumes:
   redis-data:
-  kafka-data:
   qdrant-data:
   prometheus-data:
   grafana-data:
-  temporal-data:
   n8n-data:

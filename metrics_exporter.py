@@ -43,7 +43,7 @@ async def update_system_metrics():
             pass
         await asyncio.sleep(15)
 
-async def update_ecosystem_metrics(agi_url: str = "http://localhost:7778"):
+async def update_ecosystem_metrics(agi_url: str = "http://localhost:7777"):
     """Poll AGI API and update ecosystem metrics."""
     session_timeout = aiohttp.ClientTimeout(total=5)
     while True:
