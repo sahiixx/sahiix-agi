@@ -39,38 +39,92 @@ class EcosystemDiscovery:
             healthy=True,
             last_seen=time.time(),
         )
+        self.nodes["codex-self"] = EcosystemNode(
+            name="codex-self",
+            url="http://localhost:9001",
+            health_endpoint="/health",
+            description="Codex self-review agent (GitHub Copilot bridge)",
+            priority=1,
+        )
+        self.nodes["n8n"] = EcosystemNode(
+            name="n8n",
+            url="http://localhost:5678",
+            health_endpoint="/healthz",
+            description="n8n workflow automation",
+            priority=2,
+        )
+        self.nodes["open-webui"] = EcosystemNode(
+            name="open-webui",
+            url="http://localhost:8080",
+            health_endpoint="/",
+            description="Open WebUI LLM chat interface",
+            priority=3,
+        )
+        self.nodes["ollama"] = EcosystemNode(
+            name="ollama",
+            url="http://localhost:11434",
+            health_endpoint="/api/tags",
+            description="Local LLM inference server",
+            priority=4,
+        )
+        self.nodes["redis"] = EcosystemNode(
+            name="redis",
+            url="redis://localhost:6379",
+            health_endpoint="",
+            description="Redis cache and message broker",
+            priority=5,
+        )
+        self.nodes["qdrant"] = EcosystemNode(
+            name="qdrant",
+            url="http://localhost:6333",
+            health_endpoint="/collections",
+            description="Qdrant vector database",
+            priority=6,
+        )
+        # Expected but currently offline
         self.nodes["sahiixx-os"] = EcosystemNode(
             name="sahiixx-os",
             url="http://localhost:1300",
             health_endpoint="/health",
             description="Real Estate CRM + Pipeline + Outreach (SAHIIXX-OS)",
-            priority=1,
+            priority=10,
         )
         self.nodes["agency-agents"] = EcosystemNode(
             name="agency-agents",
             url="http://localhost:8766",
             health_endpoint="/health",
             description="Multi-agent swarm (152 agents, A2A protocol)",
-            priority=2,
+            priority=11,
         )
         self.nodes["sovereign-swarm"] = EcosystemNode(
             name="sovereign-swarm",
             url="http://localhost:8767",
             health_endpoint="/health",
             description="Sovereign swarm orchestrator",
-            priority=3,
+            priority=12,
         )
         self.nodes["moltworker"] = EcosystemNode(
             name="moltworker",
             url="http://localhost:8787",
             health_endpoint="/health",
             description="Moltworker task executor",
-            priority=4,
+            priority=13,
         )
 
     async def probe(self, node: EcosystemNode) -> bool:
         try:
             start = time.monotonic()
+            # Handle non-HTTP protocols (redis, etc.)
+            if node.url.startswith("redis://"):
+                import socket
+                host_port = node.url.replace("redis://", "").split("/")[0]
+                host, port = (host_port.split(":")[0], int(host_port.split(":")[1])) if ":" in host_port else (host_port, 6379)
+                with socket.create_connection((host, port), timeout=2):
+                    pass
+                node.latency_ms = round((time.monotonic() - start) * 1000, 2)
+                node.healthy = True
+                node.last_seen = time.time()
+                return True
             timeout = aiohttp.ClientTimeout(total=3)
             async with aiohttp.ClientSession(timeout=timeout) as session:
                 async with session.get(node.url + node.health_endpoint) as resp:
@@ -81,6 +135,7 @@ class EcosystemDiscovery:
                     return node.healthy
         except Exception:
             node.healthy = False
+            node.latency_ms = -1.0
             node.last_seen = time.time()
             return False
 

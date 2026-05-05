@@ -39,8 +39,8 @@ async def update_system_metrics():
             ECOSYSTEM_CPU_PERCENT.set(cpu)
             ECOSYSTEM_RAM_USED_GB.set(mem.used / (1024**3))
             ECOSYSTEM_DISK_USED_GB.set(disk.used / (1024**3))
-        except Exception:
-            pass
+        except Exception as e:
+            print(f"[Metrics] Ecosystem poll error: {e}")
         await asyncio.sleep(15)
 
 async def update_ecosystem_metrics(agi_url: str = "http://localhost:7777"):
@@ -63,7 +63,8 @@ async def update_ecosystem_metrics(agi_url: str = "http://localhost:7777"):
                 async with session.get(f"{agi_url}/api/memory?limit=1") as resp:
                     if resp.status == 200:
                         data = await resp.json()
-                        AGI_MEMORY_EPISODES.set(data.get("episodes", []))
+                        episodes = data.get("episodes", [])
+                        AGI_MEMORY_EPISODES.set(len(episodes) if isinstance(episodes, list) else 0)
                 # Ecosystem
                 async with session.get(f"{agi_url}/api/ecosystem/status") as resp:
                     if resp.status == 200:
@@ -71,8 +72,8 @@ async def update_ecosystem_metrics(agi_url: str = "http://localhost:7777"):
                         for name, node in data.items():
                             status = "healthy" if node.get("healthy") else "unhealthy"
                             AGI_ECOSYSTEM_NODES.labels(node_name=name, status=status).set(1 if status == "healthy" else 0)
-        except Exception:
-            pass
+        except Exception as e:
+            print(f"[Metrics] Ecosystem poll error: {e}")
         await asyncio.sleep(30)
 
 async def metrics_server(host="0.0.0.0", port=9092):
@@ -97,8 +98,8 @@ async def metrics_server(host="0.0.0.0", port=9092):
             )
             await loop.sock_sendall(client, response)
             client.close()
-        except Exception:
-            pass
+        except Exception as e:
+            print(f"[Metrics] Ecosystem poll error: {e}")
         await asyncio.sleep(0.1)
 
 async def main():

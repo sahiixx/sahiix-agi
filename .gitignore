@@ -10,6 +10,7 @@ env/
 *.db
 *.db-shm
 *.db-wal
+data/agent_memory*
 logs/
 *.log
 .DS_Store

@@ -51,6 +51,52 @@ def _ensure_director() -> Director:
         director = Director(str(CONFIG_PATH))
     return director
 
+import psutil
+from prometheus_client import Counter, Gauge, Histogram, generate_latest, CONTENT_TYPE_LATEST
+from prometheus_client.registry import REGISTRY
+
+# ── Prometheus Metrics ──────────────────────────────────────────────────
+AGI_REQUESTS_TOTAL = Counter('sahiix_agi_requests_total', 'Total API requests', ['method', 'endpoint', 'status'])
+AGI_REQUEST_LATENCY = Histogram('sahiix_agi_request_latency_seconds', 'Request latency', ['endpoint'])
+AGI_ACTIVE_WS = Gauge('sahiix_agi_active_websockets', 'Active WebSocket connections')
+AGI_AGENTS_TOTAL = Gauge('sahiix_agi_agents_total', 'Number of registered agents')
+AGI_TOOLS_TOTAL = Gauge('sahiix_agi_tools_total', 'Number of registered tools')
+AGI_MEMORY_EPISODES = Gauge('sahiix_agi_memory_episodes', 'Total memory episodes')
+AGI_AUTONOMY_ENABLED = Gauge('sahiix_agi_autonomy_enabled', 'Autonomy engine status')
+AGI_ECOSYSTEM_NODES = Gauge('sahiix_agi_ecosystem_nodes', 'Ecosystem nodes', ['node_name', 'status'])
+ECOSYSTEM_CPU_PERCENT = Gauge('sahiix_ecosystem_cpu_percent', 'CPU usage percent')
+ECOSYSTEM_RAM_USED_GB = Gauge('sahiix_ecosystem_ram_used_gb', 'RAM used in GB')
+ECOSYSTEM_DISK_USED_GB = Gauge('sahiix_ecosystem_disk_used_gb', 'Disk used in GB')
+
+async def update_system_metrics():
+    """Background task: update system-level metrics every 15s."""
+    while True:
+        try:
+            cpu = psutil.cpu_percent(interval=0.1)
+            mem = psutil.virtual_memory()
+            disk = psutil.disk_usage("/")
+            ECOSYSTEM_CPU_PERCENT.set(cpu)
+            ECOSYSTEM_RAM_USED_GB.set(mem.used / (1024**3))
+            ECOSYSTEM_DISK_USED_GB.set(disk.used / (1024**3))
+        except Exception:
+            pass
+        await asyncio.sleep(15)
+
+async def update_agi_metrics():
+    """Background task: update AGI-specific metrics every 30s."""
+    while True:
+        try:
+            if director and director.agents:
+                AGI_AGENTS_TOTAL.set(len(director.agents))
+                AGI_TOOLS_TOTAL.set(len(director.tools.list_tools()) if hasattr(director.tools, 'list_tools') else 0)
+                AGI_ACTIVE_WS.set(len(active_websockets))
+            if autonomy_engine:
+                AGI_AUTONOMY_ENABLED.set(1 if autonomy_engine.running else 0)
+        except Exception:
+            pass
+        await asyncio.sleep(30)
+
+
 class ORJSONResponse(JSONResponse):
     media_type = "application/json"
     def render(self, content) -> bytes:
@@ -116,6 +162,9 @@ async def lifespan(app: FastAPI):
     except Exception as e:
         print(f"[SAHIIX AGI] Qdrant not wired: {e}")
 
+    # Start background metrics collectors
+    asyncio.create_task(update_system_metrics())
+    asyncio.create_task(update_agi_metrics())
     print("[SAHIIX AGI] Warmed up. Ready.")
     yield
     for ws in active_websockets:
@@ -150,6 +199,19 @@ async def lifespan(app: FastAPI):
 app = FastAPI(title="SAHIIX AGI", version="1.0.0-rt", default_response_class=ORJSONResponse, lifespan=lifespan)
 app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])
 app.add_middleware(GZipMiddleware, minimum_size=100)
+
+@app.middleware("http")
+async def metrics_middleware(request: Request, call_next):
+    """Count requests and measure latency for Prometheus."""
+    start = time.monotonic()
+    response = await call_next(request)
+    latency = time.monotonic() - start
+    endpoint = request.url.path
+    method = request.method
+    status = str(response.status_code)
+    AGI_REQUESTS_TOTAL.labels(method=method, endpoint=endpoint, status=status).inc()
+    AGI_REQUEST_LATENCY.labels(endpoint=endpoint).observe(latency)
+    return response
 
 
 
