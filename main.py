@@ -33,6 +33,16 @@ except Exception:
     TemporalWorkflowEngine = None
 
 try:
+    from os.backend.router import router as os_router
+except Exception:
+    os_router = None
+
+try:
+    from api_intelligence_router import router as intelligence_router
+except Exception:
+    intelligence_router = None
+
+try:
     from core.n8n_bridge import N8nBridge
 except Exception:
     N8nBridge = None
@@ -307,13 +317,30 @@ async def dashboard_page():
     with open(Path(__file__).parent / "ui" / "dashboard.html") as f:
         return HTMLResponse(f.read())
 
+async def _check_intelligence_health() -> dict:
+    """Check if the intelligence API on :8082 is reachable."""
+    import httpx
+    try:
+        async with httpx.AsyncClient(timeout=httpx.Timeout(3.0, connect=1.0)) as client:
+            resp = await client.get("http://localhost:8082/health")
+            return {
+                "reachable": True,
+                "status": "healthy" if resp.status_code == 200 else "degraded",
+                "status_code": resp.status_code,
+            }
+    except Exception as exc:
+        return {"reachable": False, "status": "unreachable", "error": str(exc)}
+
+
 @app.get("/api/health")
 async def health():
-    """Lightweight health check without ecosystem probing."""
+    """Lightweight health check with intelligence API reachability."""
+    intelligence = await _check_intelligence_health()
     return {
         "status": "ok",
         "version": _ensure_director().config.get("system", {}).get("version", "unknown"),
         "agents": list(_ensure_director().agents.keys()),
+        "intelligence_api": intelligence,
         "timestamp": time.time(),
     }
 
@@ -629,8 +656,27 @@ async def optimizer_model(request: Request):
         return {"error": "Performance Optimizer not initialized"}
     return performance_optimizer.get_recommendation(data.get("task", ""))
 
+# ── Intelligence Router Mount ────────────────────────────────────────────────
+if intelligence_router is not None:
+    app.include_router(intelligence_router, prefix="/api/intelligence")
+
 # ── Webhook Router Mount ─────────────────────────────────────────────────────
 app.include_router(webhook_router)
+if os_router is not None:
+    app.include_router(os_router)
+
+# Serve SAHIIX OS frontend static files
+from fastapi.staticfiles import StaticFiles
+os_frontend_dist = Path(__file__).parent / "os" / "frontend" / "dist"
+if os_frontend_dist.exists():
+    app.mount("/os", StaticFiles(directory=str(os_frontend_dist), html=True), name="os_frontend")
+    # SPA fallback for /os/* routes
+    @app.get("/os/{full_path:path}", response_class=HTMLResponse)
+    async def os_spa_fallback(full_path: str):
+        index_file = os_frontend_dist / "index.html"
+        if index_file.exists():
+            return HTMLResponse(content=index_file.read_text())
+        return JSONResponse({"error": "OS frontend not built"}, status_code=404)
 
 
 # ── Real-time Event Streaming ───────────────────────────────────────────────

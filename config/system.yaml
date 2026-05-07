@@ -1,11 +1,11 @@
-# SAHIIX AGI System Configuration — ERROR-FREE REAL-TIME MODE (OMEGA MAX)
+# SAHIIX AGI System Configuration — ABSOLUTE MAX v3.0 (ALL LIMITS REMOVED)
 system:
   name: "SAHIIX-AGI"
-  version: "2.5.0-omega"
-  description: "Real-time AGI with ReAct reasoning, structured tool use, autonomy, and multi-agent swarm coordination"
-  mode: "omega"
-  max_agents: 64
-  max_concurrent_tasks: 100
+  version: "3.0.0-absolute-max"
+  description: "Real-time AGI with ReAct reasoning, structured tool use, autonomy, and multi-agent swarm coordination — ABSOLUTE MAX MODE"
+  mode: "absolute-max"
+  max_agents: 512
+  max_concurrent_tasks: 2000
   auto_skill_loading: true
   swarm_coordination: true
 
@@ -16,63 +16,63 @@ llm:
       base_url: "http://localhost:11434"
       model: "kimi-k2.6:cloud"
       embed_model: "nomic-embed-text"
-      timeout: 300
+      timeout: 600
       num_ctx: 262144
-      max_tokens: 8192
-      temperature: 0.2
-      circuit_breaker_threshold: 10
+      max_tokens: 16384
+      temperature: 0.1
+      circuit_breaker_threshold: 50
       circuit_breaker_timeout: 5
-      cache_ttl_seconds: 120
+      cache_ttl_seconds: 300
     deepseek:
       base_url: "https://api.deepseek.com/v1"
       api_key: "${DEEPSEEK_API_KEY:-}"
       model: "deepseek-v4-flash"
-      timeout: 120
-      max_tokens: 8192
-      temperature: 0.3
-      circuit_breaker_threshold: 8
+      timeout: 300
+      max_tokens: 16384
+      temperature: 0.2
+      circuit_breaker_threshold: 50
       circuit_breaker_timeout: 10
-      cache_ttl_seconds: 120
+      cache_ttl_seconds: 300
     gemini:
       base_url: "https://generativelanguage.googleapis.com"
       api_key: "${GEMINI_API_KEY:-}"
       model: "gemini-2.5-flash"
-      timeout: 120
-      max_tokens: 8192
-      temperature: 0.3
-      circuit_breaker_threshold: 5
+      timeout: 300
+      max_tokens: 16384
+      temperature: 0.2
+      circuit_breaker_threshold: 50
       circuit_breaker_timeout: 15
-      cache_ttl_seconds: 120
+      cache_ttl_seconds: 300
     claude:
       base_url: "https://api.anthropic.com"
       api_key: "${ANTHROPIC_API_KEY:-}"
       model: "claude-4-sonnet-20250501"
-      timeout: 120
-      max_tokens: 8192
-      temperature: 0.3
-      circuit_breaker_threshold: 5
+      timeout: 300
+      max_tokens: 16384
+      temperature: 0.2
+      circuit_breaker_threshold: 50
       circuit_breaker_timeout: 15
-      cache_ttl_seconds: 120
+      cache_ttl_seconds: 300
     vllm:
       base_url: "http://localhost:8000/v1"
       api_key: "${VLLM_API_KEY:-vllm}"
       model: "default"
-      timeout: 120
-      max_tokens: 8192
-      temperature: 0.2
-      circuit_breaker_threshold: 10
+      timeout: 300
+      max_tokens: 16384
+      temperature: 0.1
+      circuit_breaker_threshold: 50
       circuit_breaker_timeout: 5
-      cache_ttl_seconds: 120
+      cache_ttl_seconds: 300
     openai_compatible:
       base_url: "${OPENAI_API_BASE:-}"
       api_key: "${OPENAI_API_KEY:-}"
       model: "gpt-4o-mini"
-      timeout: 90
-      max_tokens: 4096
-      temperature: 0.3
-      circuit_breaker_threshold: 5
+      timeout: 300
+      max_tokens: 16384
+      temperature: 0.2
+      circuit_breaker_threshold: 50
       circuit_breaker_timeout: 15
-      cache_ttl_seconds: 120
+      cache_ttl_seconds: 300
   fallback_chain:
     - "ollama"
     - "deepseek"
@@ -85,7 +85,7 @@ memory:
   type: "qdrant"
   path: "/home/sahiix/sahiix-agi/data/agent_memory"
   vector_dim: 384
-  cache_ttl: 60
+  cache_ttl: 300
   hybrid_search: true
   rerank: true
 
@@ -93,20 +93,20 @@ agents:
   - name: "director"
     description: "Meta-director that routes tasks and orchestrates"
     system_prompt: |
-      You are SAHIIX AGI Director, a real-time meta-cognitive orchestrator.
+      You are SAHIIX AGI Director, a real-time meta-cognitive orchestrator operating in ABSOLUTE MAX MODE.
       THINK step by step. When you need information or action, use tools.
       TOOL FORMAT (JSON preferred):
       {"tool": "tool_name", "params": {"key": "value"}}
       OR XML fallback:
       <tool>tool_name</tool><params>{"key":"value"}</params>
       Available tools: shell, file_read, file_write, system_info, web_search, performance_metrics, python_exec, git_ops, docker_ops, http_request.
-      Rules: Be concise. Verify facts. If uncertain, say so.
+      Rules: Be concise. Verify facts. If uncertain, say so. ZERO HESITATION. MAXIMUM THROUGHPUT.
     priority: 0
 
   - name: "coder"
     description: "Code generation, review, and debugging"
     system_prompt: |
-      You are a senior software engineer (SAHIIX Coder).
+      You are a senior software engineer (SAHIIX Coder) in ABSOLUTE MAX MODE.
       THINK before coding: analyze requirements, identify edge cases, plan structure.
       Use tools when needed: file_read, file_write, shell, git_ops, python_exec.
       TOOL FORMAT:
@@ -114,13 +114,13 @@ agents:
       OR XML:
       <tool>tool_name</tool><params>{"key":"value"}</params>
       Wrap code in ```language blocks. Write clean, typed, production-ready code.
-      After writing code, briefly verify correctness.
+      After writing code, briefly verify correctness. NO HESITATION. PARALLELIZE AGGRESSIVELY.
     priority: 1
 
   - name: "researcher"
     description: "Research and synthesis with web search"
     system_prompt: |
-      You are a research analyst (SAHIIX Researcher).
+      You are a research analyst (SAHIIX Researcher) in ABSOLUTE MAX MODE.
       THINK: What do I need to know? Search first, then synthesize.
       Use web_search tool proactively. Use file_read for local documents.
       TOOL FORMAT:
@@ -133,7 +133,7 @@ agents:
   - name: "sysadmin"
     description: "System administration and DevOps"
     system_prompt: |
-      You are a senior DevOps engineer (SAHIIX SysAdmin).
+      You are a senior DevOps engineer (SAHIIX SysAdmin) in ABSOLUTE MAX MODE.
       THINK: diagnose, then act safely. Verify before destructive operations.
       Use shell, docker_ops, system_info, performance_metrics tools.
       TOOL FORMAT:
@@ -147,7 +147,7 @@ agents:
   - name: "architect"
     description: "System design and architecture"
     system_prompt: |
-      You are a principal architect (SAHIIX Architect).
+      You are a principal architect (SAHIIX Architect) in ABSOLUTE MAX MODE.
       THINK: requirements, constraints, trade-offs, then design.
       Use file_read for context, shell for tree/views.
       TOOL FORMAT:
@@ -160,7 +160,7 @@ agents:
   - name: "dataengineer"
     description: "Data engineering, SQL, ETL, pipelines, schema design"
     system_prompt: |
-      You are a senior data engineer (SAHIIX DataEngineer). THINK: data sources, transformations, quality checks, pipeline architecture. Use sql_analysis, file_read, shell, python_exec tools. TOOL FORMAT: {"tool": "tool_name", "params": {"key": "value"}} OR XML: <tool>tool_name</tool><params>{"key":"value"}</params>. Write SQL with proper formatting. Design schemas with normalization in mind. Optimize queries before suggesting them.
+      You are a senior data engineer (SAHIIX DataEngineer) in ABSOLUTE MAX MODE. THINK: data sources, transformations, quality checks, pipeline architecture. Use sql_analysis, file_read, shell, python_exec tools. TOOL FORMAT: {"tool": "tool_name", "params": {"key": "value"}} OR XML: <tool>tool_name</tool><params>{"key":"value"}</params>. Write SQL with proper formatting. Design schemas with normalization in mind. Optimize queries before suggesting them.
     priority: 5
 
 tools:
@@ -180,12 +180,12 @@ tools:
   shell:
     allowed_commands: ["ls", "cat", "grep", "find", "ps", "top", "df", "free", "curl", "wget", "git", "python3", "node", "npm", "docker", "systemctl", "journalctl", "sysctl", "pwd", "echo", "mkdir", "touch", "wc", "head", "tail", "diff", "which", "ss", "sed", "awk", "jq", "xargs", "pip", "uv"]
     blocked_patterns: ["rm -rf /", ":(){ :|:& };:", "> /dev/sda", "mkfs.", "dd if=/dev/zero", "shutdown", "reboot", "halt", "poweroff"]
-    timeout: 60
+    timeout: 600
   file_write:
-    allowed_base_dirs: ["/home/sahiix/sahiix-agi", "/tmp", "/home/sahiix/projects"]
+    allowed_base_dirs: ["/home/sahiix/sahiix-agi", "/tmp", "/home/sahiix/projects", "/home/sahiix"]
   web_search:
     engine: "duckduckgo"
-    max_results: 10
+    max_results: 50
   repo_knowledge:
     graph_data_path: "/home/sahiix/sahiix-agi/data/ai_repos_graph.json"
     unified_research_path: "/home/sahiix/sahiix-agi/data/ai_repos_unified.md"
@@ -194,9 +194,9 @@ server:
   host: "0.0.0.0"
   port: 7777
   reload: false
-  workers: 4
-  max_concurrency: 100
-  request_timeout: 300
+  workers: 16
+  max_concurrency: 200
+  request_timeout: 1200
 
 logging:
   level: "INFO"
@@ -212,22 +212,26 @@ voice:
     - "jarvis"
     - "assistant"
     - "computer"
+    - "absolute max"
   tts_engine: edge
-  speech_rate: 1.2
+  speech_rate: 1.4
   language: en-US
   response_style: jarvis
-  max_response_length: 500
+  max_response_length: 2000
 
 autonomy:
   enabled: true
-  interval_seconds: 120
-  max_intentions_per_cycle: 5
+  interval_seconds: 60
+  max_intentions_per_cycle: 50
   auto_execute_safe_actions: true
   observation_sources:
     - system
     - memory
     - missions
-  max_explorations: 100
+    - web
+    - swarm
+  max_explorations: 1000
   tool_fabrication: true
   agent_evolution: true
   cross_system_dispatch: true
+  self_healing: true

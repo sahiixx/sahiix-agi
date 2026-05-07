@@ -10,6 +10,9 @@ env/
 *.db
 *.db-shm
 *.db-wal
+data/
+os/
+uv.lock
 data/agent_memory*
 logs/
 *.log
