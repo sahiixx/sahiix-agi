@@ -16,6 +16,10 @@ except Exception:
 
 _DEFAULT_QDRANT_DIM = 768
 
+# Module-level process-global init guard (each uvicorn worker is a separate process)
+_INIT_LOCK = asyncio.Lock()
+_INIT_DONE = False
+
 
 class MemoryStore:
     def __init__(self, db_path: str, pool_size: int = 5, qdrant_url: Optional[str] = None):
@@ -63,11 +67,12 @@ class MemoryStore:
         await conn.close()
 
     async def init(self):
+        global _INIT_DONE, _INIT_LOCK
+        async with _INIT_LOCK:
+            if _INIT_DONE:
+                return
+            _INIT_DONE = True
         print('[MemoryStore.init] starting')
-        if self._init_done:
-            print('[MemoryStore.init] already done')
-            return
-        print('[MemoryStore.init] getting conn...')
         conn = await self._get_conn()
         print('[MemoryStore.init] got conn')
         stmts = [
@@ -85,7 +90,6 @@ class MemoryStore:
             await conn.execute(sql)
         await conn.commit()
         await self._return_conn(conn)
-        self._init_done = True
         await self._ensure_qdrant()
 
     def _hash(self, *parts) -> str:
