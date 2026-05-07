@@ -67,11 +67,11 @@ class MemoryStore:
         await conn.close()
 
     async def init(self):
-        global _INIT_DONE, _INIT_LOCK
+        global _INIT_LOCK
         async with _INIT_LOCK:
-            if _INIT_DONE:
+            if getattr(self, '_init_done', False):
                 return
-            _INIT_DONE = True
+            self._init_done = True
         print('[MemoryStore.init] starting')
         conn = await self._get_conn()
         print('[MemoryStore.init] got conn')

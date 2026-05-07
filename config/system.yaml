@@ -194,7 +194,7 @@ server:
   host: "0.0.0.0"
   port: 7777
   reload: false
-  workers: 16
+  workers: 4
   max_concurrency: 200
   request_timeout: 1200
 

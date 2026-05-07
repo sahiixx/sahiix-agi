@@ -1,2506 +1,6 @@
 {
   "explorations": [
     {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T08:43:34.909975",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T08:46:21.506012",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T08:49:10.616081",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T08:51:57.479735",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T08:54:39.329045",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T08:57:25.828734",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T09:00:10.641185",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T09:02:57.080438",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T09:05:26.987870",
-      "findings": 0
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T09:08:12.032144",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T09:10:50.030119",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T09:13:36.517525",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T09:16:19.843103",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T09:19:04.557527",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T09:21:50.042382",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T09:24:51.931388",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T10:25:48.751174",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T10:28:28.252573",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T10:31:14.897076",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T10:33:59.536829",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T10:36:45.417502",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T10:39:31.631334",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T10:42:13.855157",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T10:45:00.616436",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T10:47:46.588865",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T10:50:33.260651",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T10:53:32.961181",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T10:57:06.843099",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T10:59:59.309975",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T11:02:48.299937",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T11:05:31.447331",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T11:08:18.026001",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T11:11:16.506588",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T11:14:20.282705",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T11:17:07.227348",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T11:19:59.783042",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T11:22:50.404299",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T11:25:36.624473",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T11:28:26.192190",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T11:31:15.325717",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T11:34:01.658889",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T11:36:51.535084",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T11:39:36.402339",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T11:42:28.229798",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T11:45:14.195432",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T11:48:03.001239",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T11:50:55.006481",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T12:19:46.871156",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T12:22:34.711565",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T12:25:20.164841",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T12:28:09.232805",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T12:30:59.893280",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T12:33:45.575284",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T12:36:33.721598",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T12:39:22.150643",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T12:42:06.863877",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T12:44:55.693309",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T12:47:39.967737",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T12:50:26.140495",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T12:53:15.657393",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T12:56:05.026065",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T12:58:54.998925",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T13:01:40.926458",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T13:04:30.117395",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T13:07:20.296901",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T13:10:07.176744",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T13:12:51.946650",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T13:15:41.360627",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T13:18:23.635470",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T13:21:13.350772",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T13:24:03.951596",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T13:26:51.430752",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T13:29:40.874536",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T13:32:30.161083",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T13:35:19.601437",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T13:38:04.928762",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T13:40:54.524142",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T13:43:45.193909",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T13:46:15.827862",
-      "findings": 0
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T13:48:28.723213",
-      "findings": 0
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T13:51:08.457201",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T13:53:54.179682",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T13:56:39.798714",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T13:59:21.866426",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T14:02:06.589283",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T14:04:55.855781",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T14:07:41.980209",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T14:10:26.723546",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T14:13:14.894173",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T14:15:35.026966",
-      "findings": 0
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T14:17:59.463117",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T14:20:08.257929",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T14:22:28.060326",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T14:50:09.502569",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T14:52:42.498546",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T14:55:28.002609",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T14:58:12.119864",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T15:00:58.290003",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T15:03:44.767183",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T15:06:27.406423",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T15:09:15.760658",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T15:12:03.076364",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T15:14:49.193932",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T15:17:33.260402",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T15:20:20.028347",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T15:23:06.101407",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T15:25:52.981653",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T15:28:36.528206",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T15:31:22.904318",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T15:34:05.900388",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T15:36:49.258667",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T15:39:35.430828",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T15:42:22.435329",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T15:45:06.510706",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T15:47:53.066319",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T15:50:39.997552",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T17:15:01.977794",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T17:17:36.837775",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T17:20:25.858994",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T17:23:11.308830",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T17:25:56.202208",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T17:28:42.228217",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T17:31:30.956439",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T17:34:18.574126",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T17:38:03.742441",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T17:40:51.114615",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T17:43:38.070393",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T17:46:22.039795",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T17:49:08.458301",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T17:51:54.320702",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T18:02:01.170160",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T18:03:40.638857",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T18:05:21.918481",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T18:07:08.464557",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T18:08:14.084220",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T18:08:50.559609",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T18:09:56.430697",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T18:10:30.755969",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T18:11:34.795191",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T18:12:12.645470",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T18:13:17.062181",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T18:13:54.341404",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T18:14:58.913631",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T18:15:36.525714",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T18:16:42.163875",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T18:17:17.427284",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T18:18:18.247332",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T18:18:58.083631",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T18:20:00.186451",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T18:20:37.057477",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T18:21:41.151553",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T18:22:18.290895",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T18:23:18.188618",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T18:23:53.668284",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T18:24:25.742997",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T18:25:30.344930",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T18:26:08.033160",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T18:27:03.033894",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T18:27:51.028771",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T18:28:55.658183",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T18:29:33.966193",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T18:30:13.908444",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T18:30:51.090283",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T18:31:39.618317",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T18:32:27.024783",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T18:33:03.812045",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T18:33:48.870179",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T18:34:28.254116",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T18:35:12.736972",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T18:35:48.296272",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T18:40:28.295393",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T19:03:11.050094",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T19:04:13.256231",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T19:04:52.614656",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T19:05:53.589169",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T19:06:35.233560",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T19:19:14.015299",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T19:20:19.370045",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T19:20:41.780932",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T19:21:47.860470",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T19:21:59.055548",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T19:22:53.287602",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T19:23:03.522938",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T19:23:17.302749",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T19:24:09.235117",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T19:24:18.862305",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T19:24:33.032550",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T19:25:24.621015",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T19:25:37.664193",
-      "findings": 5
-    },
-    {
-      "topic": "Latest MCP (Model Context Protocol) updates and implementations",
-      "timestamp": "2026-05-05T19:25:48.184233",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T21:45:32.813954",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T21:46:34.029635",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T21:46:58.462608",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T21:48:39.995927",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T21:50:23.760071",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T21:52:04.508827",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T21:54:31.256049",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T21:57:51.416700",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T21:58:40.855336",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T22:00:20.939248",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T22:02:08.385618",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T22:04:07.530765",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T22:06:04.047544",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T22:08:04.471703",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T22:09:56.589684",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T22:14:11.728113",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T22:15:27.503245",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T22:16:41.787565",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T22:17:33.052678",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T22:18:52.400757",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T22:19:43.858618",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T22:20:35.421351",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T22:21:27.806530",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T22:22:05.569277",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T22:22:34.706173",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T22:23:10.416326",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T22:23:35.564515",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T22:24:12.640260",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T22:24:47.269381",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T22:25:36.055071",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T22:26:28.537222",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T22:27:12.250256",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T22:28:04.721094",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T22:28:51.737779",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T22:29:37.594373",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T22:30:33.990990",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T22:31:22.779232",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T22:32:18.366860",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T22:33:05.908008",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T22:34:00.667629",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T22:34:47.259976",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T22:35:36.824454",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T22:36:32.267903",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T22:37:25.591754",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T22:38:15.029142",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T22:39:09.085033",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T22:39:59.235587",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T22:40:50.814868",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T22:41:43.330556",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T22:42:34.849738",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T22:43:19.670027",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T22:44:24.551166",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T22:44:57.151024",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T22:46:01.254928",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T22:46:37.973169",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T22:47:23.179776",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T22:48:21.623296",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T22:49:26.935525",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T22:49:56.224123",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T22:50:53.155817",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T22:51:41.050268",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T22:52:36.992652",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T22:53:23.703207",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T22:54:20.816795",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T22:55:06.483645",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T22:55:26.417513",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T22:56:22.188157",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T22:57:16.679383",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T22:58:03.429760",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T22:59:16.250012",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T22:59:57.891279",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T23:00:58.438097",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T23:01:40.719244",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T23:02:40.636830",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T23:03:24.191827",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T23:03:52.869775",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T23:04:53.779678",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T23:05:37.336507",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T23:06:37.093313",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T23:07:21.896553",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T23:08:19.947102",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T23:09:04.452633",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T23:10:03.650604",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T23:10:47.159148",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T23:11:41.224853",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T23:12:29.775988",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T23:13:23.890174",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T23:14:03.860989",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T23:15:00.135597",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T23:15:46.169314",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T23:16:42.363372",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T23:17:19.866872",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T23:18:25.804335",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T23:19:01.758673",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T23:20:04.883250",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T23:20:41.036407",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T23:21:47.388370",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T23:22:22.241460",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T23:23:19.302731",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T23:23:56.248465",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T23:24:59.635644",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T23:25:38.816818",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T23:26:01.743070",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T23:27:02.684840",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T23:27:44.019524",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T23:28:46.915238",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T23:29:26.851437",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T23:30:29.668667",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T23:31:10.031936",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T23:32:11.777148",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T23:32:45.464059",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T23:33:31.675514",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T23:34:25.170149",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T23:35:08.234499",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T23:36:03.757523",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T23:37:10.928091",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T23:37:41.290213",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T23:38:44.934570",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T23:39:06.532687",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T23:39:57.980983",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T23:40:46.460163",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T23:41:52.333022",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T23:42:23.299871",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T23:43:19.914606",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T23:43:52.637484",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T23:45:00.306285",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T23:45:26.884820",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-06T23:46:47.320401",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T05:56:16.964713",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T05:57:26.533250",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T05:59:03.062552",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:00:02.427599",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:00:34.893460",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:02:10.434783",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:03:24.358428",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:04:02.676658",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:04:56.471433",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:05:38.178477",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:06:32.040943",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:07:31.265398",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:08:21.561676",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:09:03.419174",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:09:53.281586",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:10:35.753553",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:11:28.595971",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:12:13.954910",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:20:43.931688",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:21:06.024143",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:22:02.624048",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:22:38.723381",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:23:35.001865",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:24:14.985835",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:25:13.553239",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:25:47.446506",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:26:45.205549",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:27:19.830608",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:28:18.673261",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:28:55.237019",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:29:54.429574",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:30:29.585412",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:31:21.811807",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:31:55.813438",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:32:42.217422",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:33:18.246050",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:33:38.499603",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:34:14.423376",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:34:48.998661",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:35:24.804824",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:36:01.982451",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:36:10.995869",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:36:18.489318",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:36:51.994694",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:37:42.698847",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:38:16.967468",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:38:25.082011",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:38:35.297223",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:38:45.625423",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:38:54.625295",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:39:01.072226",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:39:06.608700",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:39:44.243836",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:40:17.405686",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:40:50.834303",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:40:59.634612",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:41:37.456241",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:42:11.285236",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:42:49.422386",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:42:56.347578",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:43:32.892598",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:44:10.078225",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:44:24.081193",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:44:57.179410",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:45:02.174643",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:45:42.356761",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:45:46.691118",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:46:26.587453",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:46:59.636266",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:47:32.960259",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:47:46.791152",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:48:26.496564",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:49:01.166968",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:49:34.639285",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:50:13.158612",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:51:04.906328",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:51:37.540496",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:52:21.974407",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:52:53.776920",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:53:08.323227",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:54:06.386755",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:54:38.958930",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:54:53.259888",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:54:56.725654",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:55:36.331697",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:55:42.143570",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:56:29.974549",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:57:10.137490",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:57:16.810864",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:57:55.315465",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:58:03.106833",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:58:13.387022",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:58:42.428640",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:59:52.383655",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T06:59:59.830593",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:00:37.999361",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:01:18.038605",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:01:27.695731",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:01:42.715789",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:02:18.065030",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:02:40.617860",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:02:47.305641",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:03:18.100778",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:03:46.020692",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:04:11.221329",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:04:57.624368",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:05:26.836007",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:05:31.189261",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:05:38.250658",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:05:49.019246",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:06:01.022482",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:06:28.235298",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:07:04.503559",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:07:43.820338",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:08:15.918365",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:08:21.648003",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:08:47.854303",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:09:17.281980",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:09:47.170650",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:10:24.383087",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:10:43.908465",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:10:50.505042",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:10:57.714536",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:11:02.306711",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:11:35.015054",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:12:12.701300",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:12:24.573475",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:12:57.564951",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:13:32.740679",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:13:41.729717",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:14:29.962147",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:14:37.635619",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:15:16.764553",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:16:04.290080",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:16:14.399383",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:16:42.195169",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:16:51.137242",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:17:20.593754",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:17:54.088258",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:18:03.039349",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:18:11.245916",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:18:21.333781",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:19:09.461005",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:19:47.471426",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:19:56.291360",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:20:45.473632",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:21:17.990162",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:22:00.513902",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:22:10.916291",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:22:52.917054",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:23:37.872649",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:24:11.998183",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:24:25.459495",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:24:34.076986",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:25:12.520431",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:25:46.929373",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:26:25.727257",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:26:33.968312",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:26:46.496068",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:26:54.035039",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:27:01.273443",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:27:18.232429",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:27:32.151842",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:28:14.646537",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:28:22.979177",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:29:05.909210",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:29:11.942523",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:29:20.298836",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:30:12.869622",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:30:54.497887",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:31:41.489225",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:32:20.384502",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:32:37.969997",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:33:16.123136",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:33:51.781764",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:34:03.411594",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:34:14.414638",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:34:22.730130",
-      "findings": 0
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:35:00.069567",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:35:38.713417",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:36:14.950049",
-      "findings": 5
-    },
-    {
-      "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T07:36:33.904425",
-      "findings": 0
-    },
-    {
       "topic": "New multi-agent orchestration frameworks and patterns",
       "timestamp": "2026-05-07T07:37:13.208823",
       "findings": 5
@@ -3807,8 +1307,2573 @@
     },
     {
       "topic": "New multi-agent orchestration frameworks and patterns",
-      "timestamp": "2026-05-07T09:39:40.491426",
+      "timestamp": "2026-05-07T09:40:00.209710",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T09:40:44.922429",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T09:40:49.945272",
       "findings": 0
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T09:41:23.057550",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T09:42:00.347559",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T09:42:43.186900",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T09:43:16.946478",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T09:43:51.493190",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T09:44:25.082265",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T09:44:31.711246",
+      "findings": 0
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T09:45:28.588882",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T09:46:03.137031",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T09:46:25.155792",
+      "findings": 0
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T09:46:59.609784",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T09:47:32.178571",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T09:47:38.545347",
+      "findings": 0
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T09:47:46.780019",
+      "findings": 0
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T09:48:17.698909",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T09:48:53.960369",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T09:49:29.234568",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T09:50:03.659648",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T09:50:36.420039",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T09:51:16.481260",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T09:51:56.886919",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T09:52:29.438641",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T09:53:00.591107",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T09:53:18.800614",
+      "findings": 0
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T09:53:53.200861",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T09:54:30.444715",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T09:55:13.610545",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T09:55:59.432766",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T09:56:44.004726",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T09:57:30.114974",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T09:58:07.558014",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T09:58:14.251668",
+      "findings": 0
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T09:58:51.427507",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T09:59:33.288478",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T09:59:37.368701",
+      "findings": 0
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:00:27.304501",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:00:34.965971",
+      "findings": 0
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:01:06.511650",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:01:41.107444",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:02:17.140201",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:02:40.019832",
+      "findings": 0
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:03:18.973318",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:04:09.026026",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:04:44.739903",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:04:56.192144",
+      "findings": 0
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:05:46.501470",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:06:30.301665",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:07:19.257029",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:08:04.991863",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:08:51.737948",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:09:37.418914",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:10:24.026784",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:11:10.553445",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:11:57.471228",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:12:43.111406",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:13:29.900141",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:14:15.456401",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:15:03.914935",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:15:50.311865",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:16:36.658140",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:17:24.366154",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:18:03.769654",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:18:40.994622",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:19:15.414230",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:19:53.626285",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:20:30.043665",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:21:13.977263",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:22:02.387655",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:22:11.096522",
+      "findings": 0
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:22:45.123143",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:23:30.136607",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:24:09.594796",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:24:46.647419",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:25:29.471254",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:26:06.059953",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:26:41.759908",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:27:25.739407",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:28:03.131870",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:28:41.918579",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:28:49.262389",
+      "findings": 0
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:29:27.323462",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:30:01.645756",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:30:35.551058",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:31:06.359633",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:31:47.806151",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:32:22.057353",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:32:56.738711",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:33:33.560532",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:34:02.714708",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:34:37.601990",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:35:10.873858",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:35:41.973651",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:36:14.278701",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:36:43.694137",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:37:19.908234",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:37:52.641583",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:38:27.417506",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:39:06.397273",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:39:40.551327",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:40:20.186710",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:40:53.129793",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:41:25.153278",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:41:58.033203",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:42:30.458768",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:43:04.098928",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:43:34.984295",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:44:09.914525",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:44:44.199728",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:45:22.633592",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:45:58.820222",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:46:32.583166",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:47:07.329694",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:47:39.356355",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:47:45.602339",
+      "findings": 0
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:48:25.002910",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:48:57.376058",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:49:01.495075",
+      "findings": 0
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:49:36.155269",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:50:11.042575",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:50:50.644042",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:51:31.073011",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:52:08.721897",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:52:41.913934",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:53:16.655787",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:53:47.726066",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:54:26.713982",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:55:04.487767",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:55:45.834682",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:56:20.786107",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:56:53.434558",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:57:31.350945",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:58:03.468005",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:58:41.407696",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:59:18.518507",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T10:59:50.549443",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:00:30.179918",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:01:08.822592",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:01:41.129175",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:02:14.588779",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:02:45.103299",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:03:26.548497",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:04:04.317043",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:04:36.488082",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:05:09.398490",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:05:40.150946",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:06:14.776608",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:06:49.070006",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:07:21.260937",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:08:05.633274",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:08:36.462948",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:09:15.870954",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:09:49.103132",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:10:30.194061",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:11:00.401537",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:11:30.783301",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:12:06.285094",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:12:39.065401",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:13:11.905399",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:13:53.611714",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:14:27.717998",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:15:01.017421",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:15:33.751001",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:16:07.188410",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:16:49.434775",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:17:23.622938",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:18:02.029348",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:18:39.553684",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:19:16.112731",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:19:51.839741",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:20:22.818496",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:20:54.116073",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:21:26.963619",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:21:59.182992",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:22:41.293719",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:23:16.695325",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:23:48.480441",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:24:25.215606",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:24:55.499970",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:25:36.842057",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:26:10.088321",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:26:47.288292",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:27:18.988275",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:27:49.411031",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:28:33.131668",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:29:07.565510",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:29:42.814191",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:30:14.997644",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:30:45.476431",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:31:28.288381",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:32:03.675116",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:32:39.536047",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:33:14.568538",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:33:52.705308",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:34:22.615490",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:35:00.680690",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:35:39.512221",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:36:10.790952",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:36:46.363906",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:37:24.141639",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:37:55.891286",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:38:28.149211",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:39:05.338630",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:39:41.808873",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:40:25.135492",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:40:58.936965",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:41:29.600332",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:42:01.743026",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:42:34.658376",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:43:21.478911",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:43:55.011278",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:44:23.143269",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:44:55.445422",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:45:27.687022",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:46:02.417604",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:46:43.192857",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:47:18.230414",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:47:49.596181",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:48:23.309198",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:49:06.229136",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:49:36.973156",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:50:12.981142",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:50:44.644684",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:51:17.598390",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:52:01.696205",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:52:33.718290",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:53:06.113297",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:53:38.585705",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:54:11.602124",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:54:56.457614",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:55:26.642357",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:56:04.128963",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:56:36.289377",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:57:07.724752",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:57:50.038002",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:58:22.015635",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:58:58.709963",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T11:59:29.385618",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:00:00.676607",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:00:43.338058",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:01:14.437767",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:01:45.893041",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:02:17.214079",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:02:54.207716",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:03:46.346427",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:04:22.001679",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:05:15.899306",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:05:50.323000",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:06:44.233447",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:07:17.849375",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:07:59.909659",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:08:38.926751",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:09:08.924504",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:09:42.421699",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:10:14.198068",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:10:55.812916",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:11:30.493914",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:12:09.711191",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:12:39.898244",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:13:11.356013",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:13:52.499671",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:14:28.237951",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:15:03.287668",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:15:35.250254",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:16:08.368510",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:16:55.363094",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:17:30.934066",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:17:46.669002",
+      "findings": 0
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:18:21.710932",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:18:59.172503",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:19:38.282451",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:20:13.332225",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:20:51.414477",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:21:25.700047",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:22:09.003368",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:22:43.414484",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:23:22.101630",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:23:28.474700",
+      "findings": 0
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:23:59.898929",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:24:36.022075",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:25:12.798327",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:25:20.527736",
+      "findings": 0
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:25:53.299030",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:26:31.010778",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:27:06.044278",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:27:11.050144",
+      "findings": 0
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:27:49.320446",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:27:56.494009",
+      "findings": 0
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:28:26.909535",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:28:59.346298",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:29:33.676021",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:30:04.662714",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:30:45.648721",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:31:20.876925",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:31:53.631523",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:32:29.212468",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:32:59.832037",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:33:30.483581",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:34:00.825499",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:34:37.575929",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:35:07.565610",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:35:43.065748",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:36:17.719305",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:36:54.906140",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:37:31.243033",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:38:02.586527",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:38:36.460145",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:39:11.157249",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:39:50.955649",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:40:26.293283",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:41:02.430281",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:41:41.094170",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:42:15.895125",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:42:47.721040",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:43:20.878898",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:43:24.868999",
+      "findings": 0
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:43:55.794523",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:44:28.001655",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:45:11.692900",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:45:42.750381",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:46:17.549345",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:46:50.944024",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:47:24.175643",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:48:06.330842",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:48:10.166895",
+      "findings": 0
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:48:47.429690",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:49:21.255772",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:50:01.718934",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:50:41.603333",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:51:15.977741",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:51:20.851497",
+      "findings": 0
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:52:16.316809",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:52:47.482977",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:53:02.409938",
+      "findings": 0
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:53:15.707359",
+      "findings": 0
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:53:57.699747",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:54:29.327933",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:55:01.965827",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:55:36.358060",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:56:28.563603",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:56:32.612987",
+      "findings": 0
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:57:03.801505",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:57:59.221393",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:58:29.610369",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:59:21.623695",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T12:59:56.741748",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:00:52.415395",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:01:23.062111",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:02:18.371831",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:02:49.322265",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:03:44.765538",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:04:15.800029",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:05:13.170751",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:05:43.978466",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:06:39.693795",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:07:11.664481",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:08:07.461268",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:08:37.906075",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:09:34.115118",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:10:04.752252",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:10:52.228662",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:11:25.400088",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:12:19.056255",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:12:52.794285",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:13:50.099216",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:14:20.946366",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:14:46.050380",
+      "findings": 0
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:15:15.743615",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:15:46.859614",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:16:42.179982",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:17:12.867245",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:18:07.836029",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:18:38.847637",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:18:53.545808",
+      "findings": 0
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:19:33.394510",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:20:04.810336",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:20:46.081667",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:21:15.726154",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:21:47.445264",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:22:27.210445",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:22:58.590810",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:23:39.711544",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:24:19.904436",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:25:06.112411",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:25:45.587122",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:26:31.774478",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:27:12.779375",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:27:59.635585",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:28:40.626547",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:29:25.460323",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:30:07.729964",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:30:52.783319",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:31:34.121706",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:32:19.193847",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:33:01.923339",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:33:46.101957",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:34:27.980294",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:35:13.143921",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:35:55.431249",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:36:39.693092",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:37:21.282143",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:38:07.173138",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:38:47.459807",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:39:34.375206",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:40:13.073716",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:41:00.220328",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:41:39.575058",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:42:26.991846",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:43:09.679570",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:43:52.888976",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:44:24.581839",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:44:58.676453",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:45:29.724079",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:46:03.681554",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:46:45.075124",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:47:16.444768",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:47:50.102687",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:48:22.447341",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:48:56.044595",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:49:38.101445",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:50:11.955924",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:50:43.029126",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:51:14.475112",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:51:48.408301",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:52:31.374244",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:53:05.704808",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:53:36.518468",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:54:08.491236",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:54:42.297005",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:55:24.489824",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:55:57.943543",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:56:28.083923",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:57:00.094273",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:57:34.552070",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:58:17.886169",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:58:51.455290",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:59:03.749572",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T13:59:58.720933",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T14:00:29.404218",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T14:01:24.319645",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T14:01:55.802931",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T14:02:49.546022",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T14:03:22.363497",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T14:04:16.309691",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T14:04:50.224361",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T14:05:42.618201",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T14:06:16.243133",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T14:07:08.401437",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T14:07:43.716922",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T14:08:35.176846",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T14:09:09.004100",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T14:10:01.712235",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T14:10:35.978157",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T14:11:27.576067",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T14:12:02.070385",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T14:12:53.907754",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T14:13:28.762184",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T14:14:21.636703",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T16:43:42.449439",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T16:44:32.910394",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T16:45:11.621538",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T16:46:06.770274",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T16:46:38.950664",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T16:47:33.409628",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T16:48:05.579427",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T16:48:52.432268",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T17:18:14.817995",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T17:18:49.767025",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T17:19:25.846723",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T17:19:58.306617",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T17:20:37.206783",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T17:21:12.128277",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T17:21:43.874796",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T17:22:19.935784",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T17:22:51.420624",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T17:23:27.383916",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T17:23:57.409278",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T17:24:35.127200",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T17:25:11.878124",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T17:25:45.158025",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T17:26:28.493316",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T17:27:01.825752",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T17:27:40.265662",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T17:28:17.132579",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T17:28:56.020717",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T17:29:32.936668",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T17:30:02.120025",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T17:30:37.486532",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T17:31:07.773404",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T17:31:47.400375",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T17:32:25.537838",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T17:32:56.154920",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T17:33:29.540238",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T17:34:00.650358",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T17:34:35.467906",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T17:35:16.207175",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T17:35:47.876630",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T17:36:21.214025",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T17:36:51.699493",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T17:37:28.891459",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T17:38:04.711397",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T17:38:38.006937",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T17:39:12.504845",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T17:39:44.818546",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T17:40:22.289322",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T17:40:58.518556",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T17:41:34.631619",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T17:42:07.735240",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T17:42:42.916951",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T17:43:15.229822",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T17:43:56.417838",
+      "findings": 5
+    },
+    {
+      "topic": "New multi-agent orchestration frameworks and patterns",
+      "timestamp": "2026-05-07T17:44:26.958465",
+      "findings": 5
     }
   ],
   "topics": {
@@ -3819,10 +3884,10 @@
       "last_error": true
     },
     "New multi-agent orchestration frameworks and patterns": {
-      "count": 572,
-      "last": 1778146780.491359,
-      "last_synthesis": "",
-      "last_error": false
+      "count": 1085,
+      "last": 1778175866.9583895,
+      "last_synthesis": "[Synthesis timeout \u2014 LLM did not respond in time]",
+      "last_error": true
     }
   },
   "version": "2.0",
