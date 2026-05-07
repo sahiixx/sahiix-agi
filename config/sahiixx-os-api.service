@@ -1,0 +1,32 @@
+[Unit]
+Description=SAHIIXX OS Intelligence API
+After=network.target
+Wants=network.target
+
+[Service]
+Type=simple
+User=sahiix
+Group=sahiix
+WorkingDirectory=/home/sahiix/sahiixx_os
+Environment=PYTHONUNBUFFERED=1
+Environment=INTELLIGENCE_API_PORT=8082
+Environment=INTELLIGENCE_API_HOST=0.0.0.0
+Environment=LOG_LEVEL=info
+# Add additional environment variables below as needed:
+# Environment=DATABASE_URL=postgresql://localhost/sahiixx_os
+# Environment=REDIS_URL=redis://localhost:6379
+# Environment=OPENAI_API_KEY=
+ExecStart=/home/sahiix/sahiixx_os/.venv/bin/uvicorn api.main:app --host 0.0.0.0 --port 8082 --workers 2
+ExecReload=/bin/kill -HUP $MAINPID
+Restart=always
+RestartSec=5
+StandardOutput=append:/home/sahiix/sahiixx_os/logs/intelligence-api.log
+StandardError=append:/home/sahiix/sahiixx_os/logs/intelligence-api.log
+
+[Install]
+WantedBy=multi-user.target
+
+# NOTE: Install with:
+#   sudo cp /home/sahiix/sahiix-agi/config/sahiixx-os-api.service /etc/systemd/system/
+#   sudo systemctl daemon-reload
+#   sudo systemctl enable --now sahiixx-os-api.service
