@@ -102,6 +102,25 @@ async def test_docker_ops_blocked(registry):
 
 
 @pytest.mark.asyncio
-async def test_http_request(registry):
-    result = await registry.execute("http_request", url="https://httpbin.org/get", timeout=10)
-    assert result.success is True
+async def test_http_request(registry, unused_tcp_port):
+    from aiohttp import web
+    import json
+
+    async def handle(request):
+        return web.json_response({"method": request.method, "path": request.path})
+
+    app = web.Application()
+    app.router.add_get("/get", handle)
+    runner = web.AppRunner(app)
+    await runner.setup()
+    try:
+        await web.TCPSite(runner, "127.0.0.1", unused_tcp_port).start()
+        result = await registry.execute(
+            "http_request", url=f"http://127.0.0.1:{unused_tcp_port}/get", timeout=10
+        )
+        assert result.success is True
+        assert result.metadata["status"] == 200
+        assert result.metadata["content_type"] == "application/json"
+        assert json.loads(result.output) == {"method": "GET", "path": "/get"}
+    finally:
+        await runner.cleanup()
