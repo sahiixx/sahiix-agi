@@ -3,6 +3,7 @@ import pytest
 import pytest_asyncio
 import asyncio
 import httpx
+import yaml
 from fastapi import FastAPI
 
 # We test main.py indirectly by importing the app
@@ -12,8 +13,14 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 
 
 @pytest_asyncio.fixture
-async def client():
+async def client(tmp_path, monkeypatch):
     import main
+    # Keep the real application configuration, but isolate persistent test state.
+    config = yaml.safe_load(main.CONFIG_PATH.read_text())
+    config["memory"]["path"] = str(tmp_path / "memory.db")
+    config_path = tmp_path / "system.yaml"
+    config_path.write_text(yaml.safe_dump(config))
+    monkeypatch.setattr(main, "CONFIG_PATH", config_path)
     async with httpx.AsyncClient(transport=httpx.ASGITransport(app=main.app), base_url="http://test") as ac:
         yield ac
     # Cleanup: httpx 0.28.1 ASGITransport does not support lifespan events,

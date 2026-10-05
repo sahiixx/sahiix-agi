@@ -21,4 +21,5 @@ feedparser>=6.0
 watchdog>=4.0
 discord.py>=2.3
 slack-sdk>=3.21
-sahiixx-bus>=0.1.0
+# sahiixx-bus is not published on PyPI; use a reproducible source revision.
+sahiixx-bus @ git+https://github.com/sahiixx/sahiixx-bus.git@901bd01eb920e91061c4dd3ffa16870df47596f8
